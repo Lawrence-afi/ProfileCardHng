@@ -15,6 +15,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <title>Document</title>
+    <style>
+      * {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+    </style>
   </head>
   <body>
     <div
@@ -91,7 +98,7 @@
           </div>
           <a
             href=""
-            class="text-white py-3 w-[90%] rounded-full text-center block mx-auto mt-10 bg-gradient-to-r from-[#7173A5] via-[#7173A5] to-white font-medium"
+            class="text-white py-3 w-[90%] rounded-full text-center block mx-auto mt-10 bg-linear-to-r from-[#7173A5] via-[#7173A5] to-white font-medium"
             role="button"
             >Connect With Ne</a
           >
@@ -100,29 +107,53 @@
           class="flex justify-center items-center space-x-4"
           data-testid="test-user-social-links"
         >
-          <a href="" data-testid="test-user-social-github" target="_blank" rel="noopener noreferrer">
+          <a
+            href=""
+            data-testid="test-user-social-github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="" data-testid="test-user-social-twitter" target="_blank" rel="noopener noreferrer">
+          <a
+            href=""
+            data-testid="test-user-social-twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-x-twitter"></i>
           </a>
-          <a href="" data-testid="test-user-social-linkedin" target="_blank" rel="noopener noreferrer">
+          <a
+            href=""
+            data-testid="test-user-social-linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="" data-testid="test-user-social-facebook" target="_blank" rel="noopener noreferrer">
+          <a
+            href=""
+            data-testid="test-user-social-facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fa-brands fa-facebook"></i>
           </a>
         </nav>
         <div class="text-center text-xs">
           &copy; All rights reserved
-          <span data-testid="test-user-time" aria-live="polite" id="time"></span>
+          <span
+            data-testid="test-user-time"
+            aria-live="polite"
+            id="time"
+          ></span>
         </div>
       </article>
     </div>
     <script>
       let time = document.getElementById("time");
 
-      time.innerHTML = Date.now()
+      time.innerHTML = Date.now();
     </script>
   </body>
 </html>
