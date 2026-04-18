@@ -6,10 +6,22 @@
     <title>Lawrence Ikara — Profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <style>
-      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
       body {
         font-family: "Manrope", sans-serif;
@@ -28,7 +40,7 @@
         width: 100%;
         max-width: 420px;
         padding: 2rem 1.75rem 1.5rem;
-        box-shadow: 0 8px 32px rgba(113,115,165,0.12);
+        box-shadow: 0 8px 32px rgba(113, 115, 165, 0.12);
       }
 
       /* ── Mobile layout: stacked ── */
@@ -49,7 +61,7 @@
         height: 110px;
         border-radius: 50%;
         border: 4px solid #fff;
-        box-shadow: 0 4px 18px rgba(113,115,165,0.22);
+        box-shadow: 0 4px 18px rgba(113, 115, 165, 0.22);
         overflow: hidden;
       }
 
@@ -66,7 +78,9 @@
         width: 100%;
       }
 
-      .card-body header { margin-bottom: 0.25rem; }
+      .card-body header {
+        margin-bottom: 0.25rem;
+      }
 
       .card-body h1 {
         font-size: 1.5rem;
@@ -92,7 +106,9 @@
       }
 
       /* ── Hobbies / Dislikes ── */
-      .tags-group { margin-top: 1rem; }
+      .tags-group {
+        margin-top: 1rem;
+      }
 
       .tags-group h2 {
         font-size: 0.72rem;
@@ -112,7 +128,7 @@
       }
 
       .tags-group ul li {
-        background: rgba(113,115,165,0.1);
+        background: rgba(113, 115, 165, 0.1);
         color: #534ab7;
         font-size: 0.78rem;
         font-weight: 500;
@@ -136,11 +152,17 @@
         border: none;
         cursor: pointer;
         text-decoration: none;
-        transition: background 0.2s, transform 0.1s;
+        transition:
+          background 0.2s,
+          transform 0.1s;
       }
 
-      .connect-btn:hover { background: #534ab7; }
-      .connect-btn:active { transform: scale(0.97); }
+      .connect-btn:hover {
+        background: #534ab7;
+      }
+      .connect-btn:active {
+        transform: scale(0.97);
+      }
 
       /* ── Social links ── */
       .social-nav {
@@ -157,20 +179,27 @@
         width: 36px;
         height: 36px;
         border-radius: 50%;
-        border: 1.5px solid rgba(113,115,165,0.25);
+        border: 1.5px solid rgba(113, 115, 165, 0.25);
         color: #7173a5;
         font-size: 1rem;
         text-decoration: none;
-        transition: background 0.2s, color 0.2s, border-color 0.2s;
+        transition:
+          background 0.2s,
+          color 0.2s,
+          border-color 0.2s;
       }
 
-      .social-nav a:hover { background: #7173a5; color: #fff; border-color: #7173a5; }
+      .social-nav a:hover {
+        background: #7173a5;
+        color: #fff;
+        border-color: #7173a5;
+      }
 
       /* ── Footer ── */
       .card-footer {
         margin-top: 1.25rem;
         padding-top: 1rem;
-        border-top: 1px solid rgba(113,115,165,0.1);
+        border-top: 1px solid rgba(113, 115, 165, 0.1);
         text-align: center;
         font-size: 0.72rem;
         color: #aaa;
@@ -203,32 +232,48 @@
           gap: 2rem;
         }
 
-        .card-body { text-align: left; }
+        .card-body {
+          text-align: left;
+        }
 
-        .tags-group ul { justify-content: flex-start; }
+        .tags-group ul {
+          justify-content: flex-start;
+        }
 
-        .social-nav { justify-content: flex-start; }
+        .social-nav {
+          justify-content: flex-start;
+        }
 
-        .connect-btn { margin-left: 0; margin-right: auto; width: auto; display: inline-block; }
+        .connect-btn {
+          margin-left: 0;
+          margin-right: auto;
+          width: auto;
+          display: inline-block;
+        }
 
-        .card-footer { text-align: left; }
+        .card-footer {
+          text-align: left;
+        }
       }
 
       @media (min-width: 1024px) {
-        .card { max-width: 720px; }
-        .avatar-wrap figure { width: 130px; height: 130px; }
-        .card-body h1 { font-size: 1.75rem; }
+        .card {
+          max-width: 720px;
+        }
+        .avatar-wrap figure {
+          width: 130px;
+          height: 130px;
+        }
+        .card-body h1 {
+          font-size: 1.75rem;
+        }
       }
     </style>
   </head>
 
   <body>
-    <article
-      class="card"
-      data-testid="test-profile-card"
-    >
+    <article class="card" data-testid="test-profile-card">
       <div class="card-inner">
-
         <!-- Avatar -->
         <div class="avatar-wrap">
           <figure>
@@ -236,7 +281,10 @@
               src="./image.png"
               alt="Lawrence Ikara, PERN Stack Developer"
               data-testid="test-user-avatar"
-              onerror="this.src='https://ui-avatars.com/api/?name=Lawrence+Ikara&background=7173a5&color=fff&size=130'"
+              onerror="
+                this.src =
+                  'https://ui-avatars.com/api/?name=Lawrence+Ikara&background=7173a5&color=fff&size=130'
+              "
             />
           </figure>
         </div>
@@ -331,7 +379,12 @@
       <footer class="card-footer">
         &copy; All rights reserved &nbsp;|&nbsp;
         <span aria-label="Current time in milliseconds">
-          <span aria-live="polite" id="time" data-testid="test-user-time"></span> ms
+          <span
+            aria-live="polite"
+            id="time"
+            data-testid="test-user-time"
+          ></span>
+          ms
         </span>
       </footer>
     </article>
